@@ -34,6 +34,16 @@ img:hover {
 
 }
 
+img:active {
+    background-color: #8f8988b0;
+
+}
+
+#gamedesc {
+    font-size: 0.6rem;
+    margin: 20px;
+}
+
 footer {
     position: fixed;
     bottom:0
@@ -50,4 +60,19 @@ footer a:hover {
 
 .hidden {
     display:none
+}
+
+.score {
+    display: flex;
+    width:40%;
+    font-size: 0.8rem;
+    justify-content: space-between;
+}
+
+button {
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #8f8988b0;
+    background-color: white;
+    border-radius: 20px;
 }
