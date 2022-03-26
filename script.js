@@ -13,7 +13,6 @@ function computerPlay() {
     return options[Math.floor(Math.random()*options.length)]
 }
 
-
 // Function to get player selection via Prompt 
 /*function playerSelection() {
     let playerSelection = prompt("Choose Rock, Paper or Scissors")
